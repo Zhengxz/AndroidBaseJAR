@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Http</string>
+
+    <string name="time_out">服务器繁忙，请稍后再试....</string>
+    <string name="dialog_btn_no">取消</string>
+    <string name="dialog_btn_ok">确定</string>
+    
+</resources>

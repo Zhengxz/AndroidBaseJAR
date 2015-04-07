@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhengxizhen.database"
+    android:versionCode="20150317"
+    android:versionName="1.0.0" >
+
+    <!--
+	Code:20150217
+	Name:1.0.0
+	Content:
+	1、拷贝FinalDb开源代码
+    -->
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+    </application>
+
+</manifest>

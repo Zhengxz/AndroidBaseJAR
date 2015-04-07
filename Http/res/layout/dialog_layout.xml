@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center_horizontal" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn_white_style_1"
+        android:minWidth="280dp"
+        android:orientation="vertical"
+        android:paddingTop="20dp" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#12b8ba"
+                android:padding="10dp"
+                android:tag="false"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_msg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|left"
+                android:lineSpacingMultiplier="1.3"
+                android:padding="13dp"
+                android:tag="false"
+                android:textColor="@color/black_49"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ff999999" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_no"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:text="@string/dialog_btn_no"
+                    android:textColor="@color/blue_1b90ef"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <View
+                    android:id="@+id/line1"
+                    android:layout_width="1dp"
+                    android:layout_height="45dp"
+                    android:background="#ff999999" />
+
+                <Button
+                    android:id="@+id/btn_ok"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:text="@string/dialog_btn_ok"
+                    android:textColor="@color/blue_1b90ef"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/app_name"
+        android:padding="10dp"
+        android:src="@drawable/btn_dialog_close" />
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhengxizhen.tool"
+    android:versionCode="20150317"
+    android:versionName="1.0.0" >
+
+    <!--
+	Code:20150317
+	Name:1.0.0
+	Content：
+	1、创建TimeUtil（时间工具类）
+	2、创建LogUtil (日志工具)
+	3、创建ViewUtil (视图工具类)
+	4、创建DataLogicUtil (数据逻辑工具类)
+	5、创建MachineUtil (机器信息工具类)
+    -->
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+    </application>
+
+</manifest>
